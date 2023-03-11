@@ -3,7 +3,7 @@
 const listArr = [25, 30, 120, 55, 3, 6, 11, 85, 97, 45, 19, 2, 1, 8, 9, 11];
 
 console.log(mergeArr(listArr));
-
+// [1, 2, 3, 6, 8, 9, 11, 11, 19, 25, 30, 45, 55, 85, 97, 120]
 function mergeArr(array) {
   if (array.length === 1) {
     return array;
